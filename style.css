@@ -1,0 +1,158 @@
+.heading {
+    color: antiquewhite;
+  
+}
+
+#ji {
+    float: right;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px; 
+}
+
+
+.form {
+    display: flex;
+    column-gap: 12px;
+}
+
+.post-card {
+    margin: 0 auto;
+    width: 320px;
+    background: lightgrey;
+    background-color: rgb(24 27 32);
+    border: 1px solid rgb(84 90 106);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+  
+
+  .title {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: all .35s ease-in;
+  }
+  
+  .title:hover {
+    text-decoration: underline blueviolet;
+  }
+  
+  .datetime {
+    font-size: 20px;
+    color: rgb(168 179 207);
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .image-preview {
+    flex: 1;
+    min-height: 150px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: blueviolet;
+    background-image: linear-gradient(to top left, blueviolet,rgb(73, 31, 112));
+    margin-bottom: 4px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .comment-like {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px 0;
+  }
+  
+  .comment-like span {
+    cursor: pointer;
+    height: 40px;
+    width: 50px;
+    padding: 0 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: all .15s ease;
+  }
+  
+  .comment-like span:hover {
+    background-color: rgba(137, 43, 226, 0.096);
+  }
+  
+  .comment-like span svg {
+    fill: rgb(255, 255, 255);
+    margin-right: 2px;
+  }
+
+
+  .input {
+    color: #8707ff;
+    border: 2px solid #8707ff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    max-width: 200px;
+   }
+   
+   .input:active {
+    box-shadow: 2px 2px 15px #8707ff inset;
+   }
+   
+
+   .contactButton {
+    background: #7079f0;
+    color: white;
+    font-family: inherit;
+    padding: 0.45em;
+    padding-left: 1.0em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3em;
+  }
+  
+  .iconButton {
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 3.4em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7a8cf3;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .contactButton:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em #5566c2;
+  }
+  
+  .contactButton:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #5566c2;
+  }

@@ -1,0 +1,93 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+
+
+
+
+
+  </head>
+  <body>
+
+    <!-- collapsed content and nav bar  -->
+
+    <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <h4 class="text-white">Weather App </h4>
+            <span class="text-muted">The weather app was developed using HTML, CSS, and JavaScript, incorporating control structures. <br>The OpenWeatherMap API was utilized to gather accurate and up-to-date current weather information. </span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+            
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon">  <img src="weather32.png"> </span>
+          </button>
+        <h1 class="heading" >Weather App</h1>
+
+        </nav>
+      </div>
+
+
+
+
+
+
+<!-- the purple card  -->
+
+<div class="container">
+
+    <div id="ji" class="post-card">
+            <div class="icon">
+              <img src="weather-app.png">
+            </div>
+         <h2 class="title" >
+          <div class="form">
+              <input type="text" name="text"  id="search-bar" class="input" placeholder="Search here..">
+              <button id="search-button" class="contactButton">
+            <div class="iconButton">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path></svg>
+            </div>
+               </button> 
+          </div>
+          
+          </h2>
+
+
+        <span class="datetime">Current Weather Results :</span>
+
+
+        <!-- weather status will be displayed here -->
+        <div class="image-preview">
+
+          <div class="weather-details">
+            <div class="city-name"></div>
+            <div class="weather-icon"></div>
+            <div class="temperature"></div>
+            <div class="weather-type"></div>
+            <div class="humidity"></div>
+            <div class="wind-speed"></div>
+          </div>
+
+
+      </div>
+      </div>
+</div>
+  
+      
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
